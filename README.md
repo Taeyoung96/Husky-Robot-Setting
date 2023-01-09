@@ -19,7 +19,6 @@
 |ROS|Melodic|  
 |Ubuntu|18.04|    
 |CUDA|11.7|  
-|CuDNN||
 |ZED SDK|3.8.2|
 
 
