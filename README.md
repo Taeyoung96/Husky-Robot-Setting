@@ -6,6 +6,7 @@
 ||Spec|  
 |:---:|:---:|  
 |mini PC|intel NUC| 
+|CPU|Intel® Core™ i7-10710U| 
 |GPU|GTX 1660 Ti| 
 |LiDAR|Velodyne VLP 16|
 |Camera|ZED 2i|
