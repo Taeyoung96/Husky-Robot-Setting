@@ -1,9 +1,26 @@
 # Husky-Robot-Setting  
 
 ## Environemnt  
-- Ubuntu 18.04  
-- GTX 1660 Ti  
-- ROS melodic  
+- Hardware  
+
+||Spec|  
+|:---:|:---:|  
+|mini PC|intel NUC| 
+|GPU|GTX 1660 Ti| 
+|LiDAR|Velodyne VLP 16|
+|Camera|ZED 2i|
+|IMU|Xsens Mti 100| 
+
+- Software  
+
+||Version|  
+|:---:|:---:|  
+|ROS|Melodic|  
+|Ubuntu|18.04|    
+|CUDA||  
+|CuDNN||
+
+
 
 ## Requirement  
 
