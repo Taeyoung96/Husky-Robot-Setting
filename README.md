@@ -84,7 +84,7 @@ cd catkin_ws
 source devel/setup.bash
 roslaunch zed_wrapper zed2i.launch
 ```
-4. Connect the Husky Robot and Move it with the Joystick.  
+4. Connect the Husky Robot and Move it with the Joystick. (Another terminal)    
 ```
 cd catkin_ws
 source devel/setup.bash
