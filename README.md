@@ -67,4 +67,28 @@ sudo apt-get update && \
 sudo apt-get install ubuntu-xboxdrv
 ```
 
+## How to start  
+
+1. Check that the Xbox controller is connected well.  
+<p align="center"><img src="https://user-images.githubusercontent.com/41863759/212791307-9e8d6fa9-536a-4f4e-b5d8-1d148dad79bb.png" width = "200" ></p>  
+
+2. Running the Velodyne ROS package  
+```
+cd catkin_ws
+source devel/setup.bash
+roslaunch velodyne_pointcloud VLP16_points.launch
+```
+3. Running the ZED2i ROS package (Another terminal)    
+```
+cd catkin_ws
+source devel/setup.bash
+roslaunch zed_wrapper zed2i.launch
+```
+4. Connect the Husky Robot and Move it with the Joystick.  
+```
+cd catkin_ws
+source devel/setup.bash
+roslaunch husky_base base.launch
+```  
+Then, the joystick allows you to move the husky robot.
 
