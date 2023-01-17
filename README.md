@@ -68,7 +68,3 @@ sudo apt-get install ubuntu-xboxdrv
 ```
 
 
-token : 
-```
-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
-```
