@@ -84,7 +84,14 @@ cd catkin_ws
 source devel/setup.bash
 roslaunch zed_wrapper zed2i.launch
 ```
-4. Connect the Husky Robot and Move it with the Joystick. (Another terminal)    
+4. Running the Xsens Mti IMU ROS package (Another terminal)      
+```
+cd catkin_ws
+source devel/setup.bash
+roslaunch xsens_mti_driver xsens_mti_node.launch
+```
+
+5. Connect the Husky Robot and Move it with the Joystick. (Another terminal)    
 ```
 cd catkin_ws
 source devel/setup.bash
